@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+   font-family: 'Open Sans', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --color-1: #232323;
+   --color-2: #F6D8C3;
+   --color-3: #EFEFEF;
+   --color-4: #777777;
+   --color-5: #DCE8EB;
+   font-size: 10px;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   cursor: pointer;
+}
+
+ul{
+  list-style-type: none; 
+}
+
+/* button  */
+button {
+   cursor: pointer;
+}
+
+.button {
+   background-color: goldenrod;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1.6rem 2.6rem;
+   border-radius: 5px;
+   border: 2px solid transparent;
+   font-size: 1.6em;
+   font-weight: 600;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+}
+
+.button-main {
+   background-color: var(--color-2);
+   color: var(--color-1);
+}
+
+.button-main:hover {
+   background-color: var(--color-3);
+}
+
+.button-outline-main {
+   color: white;
+   background-color: transparent;
+   border: 2px solid var(--color-3);
+}
+
+.button-outline-main:hover {
+   color: var(--color-1);
+   background-color: var(--color-2);
+   border-color: var(--color-2);
+}
+/* end button  */
+
+/* container  */
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   width: 1140px;
+   margin: 0 1.6rem;
+   padding: 1.6rem;
+}
+/* end container  */
